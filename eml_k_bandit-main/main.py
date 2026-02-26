@@ -18,7 +18,7 @@ from typing import List
 
 import numpy as np
 
-from algorithms import Algorithm, EpsilonGreedy
+from algorithms import Algorithm, EpsilonGreedy, Softmax
 from arms import ArmNormal, Bandit
 from plotting import plot_average_rewards, plot_optimal_selections, plot_regret, plot_arm_statistics
 

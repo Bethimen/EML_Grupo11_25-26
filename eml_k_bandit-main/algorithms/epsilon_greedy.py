@@ -38,15 +38,19 @@ class EpsilonGreedy(Algorithm):
         :return: índice del brazo seleccionado.
         """
 
-        # Observa que para para epsilon=0 solo selecciona un brazo y no hace un primer recorrido por todos ellos.
-        # ¿Podrías modificar el código para que funcione correctamente para epsilon=0?
+        # Si hay brazos que aún no han sido seleccionados, probarlos primero
+        for arm in range(self.k):
+            if self.counts[arm] == 0:
+                return arm
 
         if np.random.random() < self.epsilon:
             # Selecciona un brazo al azar
             chosen_arm = np.random.choice(self.k)
         else:
-            # Selecciona el brazo con la recompensa promedio estimada más alta
-            chosen_arm = np.argmax(self.values)
+            # Romper empates aleatoriamente
+            max_value = np.max(self.values)
+            candidates = np.where(self.values == max_value)[0]
+            chosen_arm = np.random.choice(candidates)
 
         return chosen_arm
 
