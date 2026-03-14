@@ -1,3 +1,3 @@
-# Un estudio básico comparativo entre distintos algoritmos epsilon-greedy
+# Estudio comparativo de los algoritmos según el tipo de bandido
 
-Punto inicial para estudiar distintas soluciones al problema del bandido de k-brazos. 
+Se hace un estudio comparativo de los algoritmos $\epsilon$-greedy, Softmax y UCB1 según el tipo de bandido: Normal, Binomial y Bernoulli.
