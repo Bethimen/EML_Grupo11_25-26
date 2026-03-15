@@ -1,5 +1,5 @@
 # RL
-gymnasium==1.2.3
+gymnasium==0.29.1
 flappy-bird-gymnasium==0.4.0
 
 # DL
@@ -10,7 +10,6 @@ numpy>=1.24.0,<2.0.0
 matplotlib>=3.7.0
 imageio==2.31.0
 imageio[ffmpeg]
-seaborn==0.13.2
 
 # Utilidades
 tqdm>=4.67.3
