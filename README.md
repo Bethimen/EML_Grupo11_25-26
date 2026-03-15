@@ -15,7 +15,7 @@ En eml_k_bandit-main está toda la parte del bandido de k-brazos, en donde en es
 
 En el notebook RL_MetodosTabulares.ipynb está el la parte 2 de métodos tabulares
 
-En la carpeta Entornos_continuos esta la parte 3, el notebook Entornos_continuos\parte3_evaluación.ipynb es el punto de entrada, y la carpeta Entornos_continuos\src contiene clases auxiliares para la ejecución del notebook como los agentes en \agents y el wrapper en la carpeta \wrapper.
+En la carpeta Entornos_continuos esta la parte 3, el notebook Entornos_continuos\parte3_evaluación.ipynb es el punto de entrada, y la carpeta Entornos_continuos\src contiene clases auxiliares para la ejecución del notebook como los agentes en \agents.
 Por último resultados intermedios como configuración de los modelos o videos se guardan en la carpeta \Entornos_continuos\Entornos_continuos\artifacts
 
 ## Instalación y uso
